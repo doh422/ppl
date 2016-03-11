@@ -14,6 +14,21 @@ var purple = new Block('purple', 'assets/purple.png');
 // list of blocks
 var blockList = [green, blue, red, yellow, purple];
 
+// grid object constructor
+var GridSquare = function(x, y, block) {
+	this.x = x;
+	this.y = y;
+	this.block = block;
+};
+
+// create grid column
+var column1 = [];
+for (var i = 1; i < 13; i ++) {
+	var square = new GridSquare(1, i, green);
+	column1.push(square);
+}
+
+
 // jquery code
 $(document).ready(function() {
 	$('img').click(function() {
