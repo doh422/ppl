@@ -1,0 +1,13 @@
+body {
+	background-color: grey;
+}
+
+img {
+	height: 40px;
+	width: 40px;
+	position: relative;
+}
+
+div	{
+	display: inline-block;
+}
