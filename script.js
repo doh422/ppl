@@ -11,6 +11,9 @@ var red = new Block('red', 'assets/red.png');
 var yellow = new Block('yellow', 'assets/yellow.png');
 var purple = new Block('purple', 'assets/purple.png');
 
+// list of blocks
+var blockList = [green, blue, red, yellow, purple];
+
 // jquery code
 $(document).ready(function() {
 	$('img').click(function() {
